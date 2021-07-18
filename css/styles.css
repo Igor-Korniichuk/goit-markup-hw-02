@@ -1,0 +1,124 @@
+/* Основной цвет текста #757575 */
+/* Второстепенный цвет текста #212121 */
+/* Белый цыет #FFFFFF */
+/* Цвет акцента #2196F3 */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.studio-black {
+    color: var(--title-text-color);
+}
+
+/* Site nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus, .contacts a:hover, .contacts a:focus  {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color:var(--title-text-color);
+    text-decoration: none;
+}
+
+/* Hero */
+.hero-title {
+    color: var(--white-color);
+    background-color: #2F303A;
+    }
+
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Ffeatures */
+.features .title {
+    color: var(--title-text-color);
+}
+
+/* Team */
+.team .title {
+    color: var(--title-text-color);
+}
+
+/* Button */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Footer */
+footer {
+    background-color: #2F303A;
+}
+
+.studio-white {
+    color: var(--white-color);
+}
+
+address p {
+    color: var(--white-color);
+}
+
+address a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* СТИЛИ ДЛЯ ПОРТФОЛИО */
+
+/* Filter */
+.filter .button {
+    color: var(--title-text-color);
+    background-color: var(--white-color);
+}
+
+.filter .button:hover, .filter .button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);    
+}
+
+/* Projects */
+.projects a {
+        text-decoration: none;   
+}
+
+.link .title {
+    color: var(--title-text-color);
+}
+
+.link p {
+    color: var(--primary-text-color);
+}
