@@ -52,7 +52,7 @@ body {
 }
 
 .contacts a {
-    color:var(--title-text-color);
+    color:var(--primary-text-color);
     text-decoration: none;       
     font-weight: 500;
     font-size: 14px;
@@ -68,7 +68,7 @@ body {
 
 .hero-title {
     color: var(--white-color);        
-    font-weight: 400;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -103,7 +103,7 @@ body {
     color: var(--title-text-color);      
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;   
+    line-height: 1.14;   
     text-transform: uppercase;
 }
 
@@ -139,7 +139,7 @@ address p {
     color: var(--white-color);
     font-style: normal;     
     font-size: 14px;
-    line-height: 1.71px;    
+    line-height: 1.71;    
 }
 
 address a {
@@ -160,7 +160,7 @@ address a {
     font-family: inherit;    
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63x;     
+    line-height: 1.63;     
 }
 
 .filter .button:hover, .filter .button:focus {
@@ -174,9 +174,16 @@ address a {
 }
 
 .link .title {
-    color: var(--title-text-color);
+    color: var(--title-text-color);    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
 }
 
 .link p {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);     
+    font-size: 16px;
+    line-height: 1.88;
 }
